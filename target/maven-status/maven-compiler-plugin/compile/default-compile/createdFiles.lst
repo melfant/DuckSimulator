@@ -1,0 +1,12 @@
+DuckSubtypes\ModelDuck.class
+DuckBehavior\Squeak.class
+DuckBehavior\FlyRocketPowered.class
+DuckSubtypes\Duck.class
+MiniDuckSimulator.class
+DuckBehavior\FlyWithWings.class
+DuckBehavior\QuackBehaviour.class
+DuckBehavior\FlyBehavior.class
+DuckBehavior\FlyNoWay.class
+DuckBehavior\Quack.class
+DuckBehavior\MuteQuack.class
+DuckSubtypes\MallardDuck.class

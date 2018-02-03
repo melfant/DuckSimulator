@@ -1,3 +1,8 @@
+package DuckSubtypes;
+
+import DuckBehavior.FlyWithWings;
+import DuckBehavior.Quack;
+
 public class MallardDuck extends Duck {
     public MallardDuck(){
         quackBehaviour = new Quack();

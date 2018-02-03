@@ -1,9 +1,23 @@
+package DuckSubtypes;
+
+import DuckBehavior.FlyBehavior;
+import DuckBehavior.QuackBehaviour;
+
 public abstract class Duck {
+    String name;
 
     FlyBehavior flyBehavior;
     QuackBehaviour quackBehaviour;
 
     public Duck() {
+    }
+
+    public void setFlyBehavior(FlyBehavior fb){
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehaviour(QuackBehaviour qb){
+        quackBehaviour = qb;
     }
 
     public abstract void display();
